@@ -20,7 +20,7 @@ Développer un modèle prédictif permettant d’anticiper le **départ des clie
 
 ## 🔎 Analyse exploratoire pour comprendre les donnees 
 - Statistiques descriptives : `age`, `anciennete`, `solde_bank`, `produit_souscrit`, `salaire_estime`.
-[image de l'analyse descriptive](description.png)
+[Resultat de l'analyse descriptive](description.png)
 
 
 
