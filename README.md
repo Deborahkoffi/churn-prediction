@@ -19,8 +19,11 @@ Développer un modèle prédictif permettant d’anticiper le **départ des clie
 ---
 
 ## 🔎 Analyse exploratoire pour comprendre les donnees 
-[Description du modèle](description.png)
 - Statistiques descriptives : `age`, `anciennete`, `solde_bank`, `produit_souscrit`, `salaire_estime`.
+[image de l'analyse descriptive](description.png)
+
+
+
 - Tests de normalité (**Anderson–Darling**).
 - Visualisations : histogrammes et courbes de densité.
 - Matrice de corrélation (multicolinéarité).
