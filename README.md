@@ -24,7 +24,12 @@ Développer un modèle prédictif permettant d’anticiper le **départ des clie
 
 ![Resultat de l'analyse descriptive](description.png)
 
-Interpreatation
+Les clients ont en moyenne :
+- 38 à 39 ans, donc une population plutôt adulte et active.  
+- Une ancienneté d’environ 5 ans dans la banque, ce qui traduit une relation client assez stable.  
+- Un solde bancaire moyen de 76 000, mais avec une forte dispersion (certains comptes très faibles, d’autres très élevés).  
+- Un salaire estimé moyen autour de 100 000, ce qui suggère une clientèle relativement aisée.  
+- Et la majorité n’a qu’un ou deux produits bancaires (produit_souscrit ≈ 1,5).
 
 - Tests de normalité (**Anderson–Darling**).
 - Visualisations : histogrammes et courbes de densité.
