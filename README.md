@@ -92,7 +92,7 @@ Visuellement, la courbe ROC se situe nettement au-dessus de la diagonale grise (
 Elle s’incurve vers le coin supérieur gauche du graphique, zone correspondant à un taux élevé de vrais positifs (clients churn détectés) et un faible taux de faux positifs (clients fidèles mal classés).
 
 Plus la courbe est proche du coin supérieur gauche, plus le modèle distingue efficacement les deux classes.
-Ici, la forme ascendante et régulière de la courbe traduit une bonne stabilité du modèle et une capacité de discrimination correcte (AUC ≈ 0.73).
+Ici, la forme ascendante et régulière de la courbe traduit une bonne stabilité du modèle et une capacité de discrimination correcte.
 
 En résumé :
 La courbe montre que le modèle reconnaît bien les churners sans générer trop d’erreurs, ce qui confirme sa pertinence pour la détection des clients à risque.
