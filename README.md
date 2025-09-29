@@ -69,6 +69,8 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 - Variables explicatives : `age`, `statut_active`, `produit_souscrit`, `credit_score`, `solde_bank`, `genre`.
 - Qualité validée avec l’indice de **Nagelkerke**.
 
+![modele bon](pseudo_r2.png)
+
 ---
 
 ## Évaluation
