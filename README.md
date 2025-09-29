@@ -124,6 +124,6 @@ Objectif : rendre la relation client plus complète et plus difficile à rompre.
 
 ---
 
-## 🧰 Packages R utilisés
+##Packages R utilisés
 `readxl`, `dplyr`, `nortest`, `corrplot`, `caret`, `smotefamily`, `pROC`, `rcompanion`.
 
