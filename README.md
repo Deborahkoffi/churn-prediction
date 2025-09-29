@@ -78,13 +78,7 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 - Seuil de décision ajusté : **0,40**.
 - **Matrice de confusion** : précision, rappel, accuracy.
 - **Courbe ROC & AUC** : bonne capacité discriminante.
-
-### 📊 Visualisations d’évaluation
-#### Courbe ROC
-![Courbe ROC](images/roc_curve.png)
-
-#### Matrice de confusion
-![Matrice de confusion](images/confusion_matrix.png)
+![ROC performance](courberoc.png)
 
 ---
 
@@ -97,7 +91,7 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 
 ---
 
-## Résultats & impact
+## Prise de Decision
 - Mise en place d’un pipeline complet **Data → Analyse → Modèle → Évaluation → Restitution**.
 - Amélioration de la détection des clients susceptibles de quitter.
 - Outil de support à la **fidélisation client** grâce à des insights exploitables.
