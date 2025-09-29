@@ -43,6 +43,8 @@ ces observations confirment que les données sont non paramétriques, ce qui jus
 
 ![graphique multicolinearite](corrplot.png)
 
+La matrice de corrélation ne révèle aucune multicolinéarité problématique.
+Les variables peuvent donc être conservées pour la modélisation, car elles apportent une contribution unique à la prédiction du churn.
 
 - Recherche de valeurs aberrantes (méthode IQR et z-score).
 - Étude du lien entre variables et churn (corrélation de Kendall + test de Wilcoxon).
