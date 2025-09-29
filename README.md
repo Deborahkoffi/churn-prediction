@@ -82,11 +82,11 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 ![ROC performance](courberoc.png)
 ---
 
-## 📤 Restitution
+## Restitution
 - Export des prédictions (`proba`, `churn_predict`) pour analyse sur Power Bi.
 ![mon dashboard](Dashboard.png)
 
-- Interprétation
+#Interprétation
 Lecture des visualisations
 - Âge et churn : la moyenne d’âge des clients churners est plus élevée, confirmant que les clients plus âgés sont plus enclins à quitter la banque.
 - Solde bancaire et churn : les churners ont un solde plus élevé, suggérant qu’ils sont financièrement autonomes et donc plus susceptibles de migrer vers d’autres offres.
