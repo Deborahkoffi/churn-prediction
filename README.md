@@ -78,8 +78,8 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 - Seuil de décision ajusté : **0,40**.
 - **Matrice de confusion** : précision, rappel, accuracy.
 - **Courbe ROC & AUC** : bonne capacité discriminante.
+  
 ![ROC performance](courberoc.png)
-
 ---
 
 ## 📤 Restitution
