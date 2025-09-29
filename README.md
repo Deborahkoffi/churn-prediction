@@ -96,7 +96,14 @@ Lecture des visualisations
 
 Matrice de confision
 
-Sur 3 000 clients, le modèle classe correctement 2 021 personnes (67,37 %). Il identifie 429 churners sur 610 (recall = 70,33 %), mais parmi les 1 227 signalés à risque, seuls 429 churnent vraiment (precision = 34,96 %), ce qui génère 798 fausses alertes. Côté fidélité, 1 592 sur 2 390 non-churners sont bien reconnus (specificity = 66,61 %). Le modèle privilégie donc la détection des churners (bon recall) avec un coût en fausses alertes, cohérent pour une stratégie de rétention proactive.
+- 1592 clients fidèles correctement identifiés (restés et prédits comme 0).
+- 429 churners correctement détectés (partis et prédits comme 1).
+- 798 faux positifs → prédits comme churners mais restés.
+- 181 faux négatifs → prédits comme fidèles mais partis.
+
+Le modèle reconnaît mieux les clients fidèles que les churners, mais conserve une bonne capacité à détecter ceux à risque.
+Avec un seuil fixé à 0,4, le choix a été de privilégier le recall : il vaut mieux prévenir trop de clients à risque que d’en laisser partir sans alerte.
+Ce choix permet à l’entreprise d’agir de manière proactive pour fidéliser les clients à risque et réduire les pertes.
 
 ---
 
