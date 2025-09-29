@@ -83,11 +83,9 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 ---
 
 ## 📤 Restitution
-- Export des prédictions (`proba`, `churn_predict`) pour analyse.
-- Création d’un **dashboard Power BI** avec :
-  - Taux de churn,
-  - Variables explicatives clés,
-  - Liste des clients à risque.
+- Export des prédictions (`proba`, `churn_predict`) pour analyse sur Power Bi.
+![mon dashboard](dashboard.jpg)
+
 
 ---
 
