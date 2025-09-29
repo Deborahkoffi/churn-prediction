@@ -87,13 +87,33 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 ![mon dashboard](Dashboard.png)
 
 - Interprétation
+Lecture des visualisations
+- Âge et churn : la moyenne d’âge des clients churners est plus élevée, confirmant que les clients plus âgés sont plus enclins à quitter la banque.
+- Solde bancaire et churn : les churners ont un solde plus élevé, suggérant qu’ils sont financièrement autonomes et donc plus susceptibles de migrer vers d’autres offres.
+- Statut actif et churn : les clients inactifs churnent davantage, ce qui met en évidence l’importance de l’engagement client.
+- Genre et churn : une légère différence est observée : les femmes légèrement plus touchées selon le graphique, mais l’effet reste faible.
+- Nombre de produits souscrits : les clients avec peu de produits (1 seul) quittent plus souvent la banque, alors que ceux avec plusieurs produits (3 ou 4) sont plus fidèles.
+
+# Matrice de confision
+
+Sur 3 000 clients, le modèle classe correctement 2 021 personnes (67,37 %). Il identifie 429 churners sur 610 (recall = 70,33 %), mais parmi les 1 227 signalés à risque, seuls 429 churnent vraiment (precision = 34,96 %), ce qui génère 798 fausses alertes. Côté fidélité, 1 592 sur 2 390 non-churners sont bien reconnus (specificity = 66,61 %). Le modèle privilégie donc la détection des churners (bon recall) avec un coût en fausses alertes, cohérent pour une stratégie de rétention proactive.
 
 ---
 
 ## Prise de Decision
-- Mise en place d’un pipeline complet **Data → Analyse → Modèle → Évaluation → Restitution**.
-- Amélioration de la détection des clients susceptibles de quitter.
-- Outil de support à la **fidélisation client** grâce à des insights exploitables.
+Stratégie de fidélisation
+
+Cibler les clients à risque élevé (prédits avec une probabilité > 0.8 dans le modèle).
+Exemple : clients âgés, inactifs, avec peu de produits souscrits.
+Mettre en place une relance proactive :
+Appels personnalisés ou emails pour comprendre les causes du désengagement.
+Offres de fidélisation : réduction de frais, bonus de produits, avantages exclusifs.
+Renforcer l’engagement client :
+Encourager l’utilisation régulière des services bancaires (ex. application mobile, carte, épargne automatique).
+Campagnes de sensibilisation pour réactiver les comptes inactifs.
+Développer la multi-détention de produits :
+Proposer des packs ou avantages à partir de 2 produits (carte + épargne, carte + prêt).
+Objectif : rendre la relation client plus complète et plus difficile à rompre.
 
 ---
 
