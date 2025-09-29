@@ -84,7 +84,7 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 
 ## 📤 Restitution
 - Export des prédictions (`proba`, `churn_predict`) pour analyse sur Power Bi.
-![mon dashboard](dashboard.jpg)
+![mon dashboard](Dashboard.png)
 
 
 ---
