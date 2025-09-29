@@ -86,7 +86,7 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 - Export des prédictions (`proba`, `churn_predict`) pour analyse sur Power Bi.
 ![mon dashboard](Dashboard.png)
 
-#Interprétation
+Interprétation
 Lecture des visualisations
 - Âge et churn : la moyenne d’âge des clients churners est plus élevée, confirmant que les clients plus âgés sont plus enclins à quitter la banque.
 - Solde bancaire et churn : les churners ont un solde plus élevé, suggérant qu’ils sont financièrement autonomes et donc plus susceptibles de migrer vers d’autres offres.
@@ -94,7 +94,7 @@ Lecture des visualisations
 - Genre et churn : une légère différence est observée : les femmes légèrement plus touchées selon le graphique, mais l’effet reste faible.
 - Nombre de produits souscrits : les clients avec peu de produits (1 seul) quittent plus souvent la banque, alors que ceux avec plusieurs produits (3 ou 4) sont plus fidèles.
 
-# Matrice de confision
+Matrice de confision
 
 Sur 3 000 clients, le modèle classe correctement 2 021 personnes (67,37 %). Il identifie 429 churners sur 610 (recall = 70,33 %), mais parmi les 1 227 signalés à risque, seuls 429 churnent vraiment (precision = 34,96 %), ce qui génère 798 fausses alertes. Côté fidélité, 1 592 sur 2 390 non-churners sont bien reconnus (specificity = 66,61 %). Le modèle privilégie donc la détection des churners (bon recall) avec un coût en fausses alertes, cohérent pour une stratégie de rétention proactive.
 
