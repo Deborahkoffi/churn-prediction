@@ -49,6 +49,10 @@ Les variables peuvent donc être conservées pour la modélisation, car elles ap
 - Recherche de valeurs aberrantes (méthode IQR et z-score).
 - Étude du lien entre variables et churn (corrélation de Kendall + test de Wilcoxon).
 
+![etude des liens](kendall.png)
+
+Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des relations statistiquement significatives avec le churn — seules les variables dont le coefficient de Kendall (|τ| ≥ 0.1) présentent une corrélation réellement exploitable, à savoir : l’âge, le statut d’activité, le nombre de produits souscrits, le genre et, dans une moindre mesure, le solde bancaire.
+
 
 
 ---
