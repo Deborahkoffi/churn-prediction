@@ -77,6 +77,7 @@ Le Nagelkerke R² ≈ 0.27, version ajustée du Cox & Snell, indique que le mod�
 Ce résultat traduit une bonne cohérence globale des variables retenues et un niveau d’explication satisfaisant, typique d’un modèle prédictif appliqué à des données réelles.
 
 Bien que le churn soit également influencé par des facteurs externes non observés tels que la satisfaction client, les offres concurrentes, les changements de situation personnelle ou les conditions économiques, le modèle parvient à en expliquer une part significative à partir des données disponibles.
+
 ---
 
 ## Évaluation
