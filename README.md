@@ -36,20 +36,14 @@ Et la majorité n’a qu’un ou deux produits bancaires (produit_souscrit ≈ 1
 
 ![histogramme sur quelque variable](Histogramme.png)
 
+L'analyse des histogrammes montre que les variables ne suivent pas une loi normale.
+ces observations confirment que les données sont non paramétriques, ce qui justifie l’usage de tests statistiques non paramétriques (comme Kendall ou Wilcoxon) pour l’étude des relations entre variables et le churn.
 
 - Matrice de corrélation (multicolinéarité).
 - Recherche de valeurs aberrantes (méthode IQR et z-score).
 - Étude du lien entre variables et churn (corrélation de Kendall + test de Wilcoxon).
 
-### 📊 Visualisations
-#### Histogramme d’âge
-![Histogramme âge](images/hist_age.png)
 
-#### Matrice de corrélation
-![Corrplot](images/corrplot.png)
-
-#### Distribution du solde bancaire
-![Histogramme solde](images/hist_solde.png)
 
 ---
 
