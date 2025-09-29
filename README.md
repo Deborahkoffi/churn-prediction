@@ -108,17 +108,17 @@ Ce choix permet à l’entreprise d’agir de manière proactive pour fidéliser
 ---
 
 ## Prise de Decision
-Stratégie de fidélisation
+Selon les résultats du modèle, plusieurs leviers d’action prioritaires se dégagent pour anticiper le départ des clients et renforcer leur fidélité.
 
-Cibler les clients à risque élevé (prédits avec une probabilité > 0.8 dans le modèle).
+- Cibler les clients à risque élevé (prédits avec une probabilité > 0.8 dans le modèle).
 Exemple : clients âgés, inactifs, avec peu de produits souscrits.
-Mettre en place une relance proactive :
+- Mettre en place une relance proactive :
 Appels personnalisés ou emails pour comprendre les causes du désengagement.
-Offres de fidélisation : réduction de frais, bonus de produits, avantages exclusifs.
-Renforcer l’engagement client :
+- Offres de fidélisation : réduction de frais, bonus de produits, avantages exclusifs.
+- Renforcer l’engagement client :
 Encourager l’utilisation régulière des services bancaires (ex. application mobile, carte, épargne automatique).
-Campagnes de sensibilisation pour réactiver les comptes inactifs.
-Développer la multi-détention de produits :
+- Campagnes de sensibilisation pour réactiver les comptes inactifs.
+- Développer la multi-détention de produits :
 Proposer des packs ou avantages à partir de 2 produits (carte + épargne, carte + prêt).
 Objectif : rendre la relation client plus complète et plus difficile à rompre.
 
