@@ -71,6 +71,12 @@ Bien que la plupart des p-values soient inférieures à 0,05 — indiquant des r
 
 ![modele bon](pseudo_r2.png)
 
+En régression logistique, les indices de pseudo-R² (McFadden, Cox & Snell, Nagelkerke) évaluent la qualité d’ajustement globale du modèle, c’est-à-dire sa capacité à expliquer la variabilité du churn.
+
+Le Nagelkerke R² ≈ 0.27, version ajustée du Cox & Snell, indique que le modèle explique environ 27 % du comportement de churn.
+Ce résultat traduit une bonne cohérence globale des variables retenues et un niveau d’explication satisfaisant, typique d’un modèle prédictif appliqué à des données réelles.
+
+Bien que le churn soit également influencé par des facteurs externes non observés tels que la satisfaction client, les offres concurrentes, les changements de situation personnelle ou les conditions économiques, le modèle parvient à en expliquer une part significative à partir des données disponibles.
 ---
 
 ## Évaluation
