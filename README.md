@@ -40,6 +40,10 @@ L'analyse des histogrammes montre que les variables ne suivent pas une loi norma
 ces observations confirment que les données sont non paramétriques, ce qui justifie l’usage de tests statistiques non paramétriques (comme Kendall ou Wilcoxon) pour l’étude des relations entre variables et le churn.
 
 - Matrice de corrélation (multicolinéarité).
+
+![graphique multicolinearite](corrplot.png)
+
+
 - Recherche de valeurs aberrantes (méthode IQR et z-score).
 - Étude du lien entre variables et churn (corrélation de Kendall + test de Wilcoxon).
 
