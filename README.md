@@ -34,7 +34,7 @@ Et la majorité n’a qu’un ou deux produits bancaires (produit_souscrit ≈ 1
 - Tests de normalité (**Anderson–Darling**): permettent de vérifier si les variables suivent une loi normale.  
   Utile pour savoir si les données sont paramétriques ou non, et donc déterminer le type de tests statistiques à utiliser ensuite.
 
-![histogramme sur quelque variable](Histogramme)
+![histogramme sur quelque variable](Histogramme.png)
 
 
 - Matrice de corrélation (multicolinéarité).
