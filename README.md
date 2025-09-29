@@ -19,7 +19,7 @@ Développer un modèle prédictif permettant d’anticiper le **départ des clie
 ---
 
 ## 🔎 Analyse exploratoire pour comprendre les donnees 
-Statistiques descriptives : `age`, `anciennete`, `solde_bank`, `produit_souscrit`, `salaire_estime`.
+- Statistiques descriptives : `age`, `anciennete`, `solde_bank`, `produit_souscrit`, `salaire_estime`.
 
 
 ![Resultat de l'analyse descriptive](description.png)
@@ -31,8 +31,11 @@ Un solde bancaire moyen de 76 000, mais avec une forte dispersion (certains comp
 Un salaire estimé moyen autour de 100 000, ce qui suggère une clientèle relativement aisée.  
 Et la majorité n’a qu’un ou deux produits bancaires (produit_souscrit ≈ 1,5).
 
-- Tests de normalité (**Anderson–Darling**).
-- Visualisations : histogrammes et courbes de densité.
+- Tests de normalité (**Anderson–Darling**): permettent de vérifier si les variables suivent une loi normale.  
+  Utile pour savoir si les données sont paramétriques ou non, et donc déterminer le type de tests statistiques à utiliser ensuite.
+
+
+
 - Matrice de corrélation (multicolinéarité).
 - Recherche de valeurs aberrantes (méthode IQR et z-score).
 - Étude du lien entre variables et churn (corrélation de Kendall + test de Wilcoxon).
