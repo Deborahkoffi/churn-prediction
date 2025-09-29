@@ -8,11 +8,11 @@ Développer un modèle prédictif permettant d’anticiper le **départ des clie
 ---
 
 ## Données & préparation
-- Importation du jeu de données.
+- Importation du jeu de 10.000 données.
 - Contrôles qualité :
-  - Dimensions du dataset.
-  - Valeurs manquantes (nombre et %).
-  - Doublons.
+  - Dimensions du dataset (11 variables et 10.000 lignes).
+  - Valeurs manquantes (nombre et %) : pas de valeurs manquantes.
+  - Doublons: pas de doublons
 - Nettoyage :
   - Recodage de la variable `genre` (*Male = 1, Female = 0*).
 
