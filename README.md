@@ -108,8 +108,8 @@ Lecture des visualisations
 - Âge et churn : la moyenne d’âge des clients churners est plus élevée, confirmant que les clients plus âgés sont plus enclins à quitter la banque.
 - Solde bancaire et churn : les churners ont un solde plus élevé, suggérant qu’ils sont financièrement autonomes et donc plus susceptibles de migrer vers d’autres offres.
 - Statut actif et churn : les clients inactifs churnent davantage, ce qui met en évidence l’importance de l’engagement client.
-- Genre et churn : une légère différence est observée : les femmes légèrement plus touchées selon le graphique, mais l’effet reste faible.
-- Nombre de produits souscrits : les clients avec peu de produits (1 seul) quittent plus souvent la banque, alors que ceux avec plusieurs produits (3 ou 4) sont plus fidèles.
+- Genre et churn : d’après la visualisation croisée genre × statut actif, les femmes inactives semblent légèrement plus touchées par le churn que les hommes, mais l’effet reste faible.
+- Nombre de produits souscrits et churn : selon le modèle prédictif, les clients ayant peu de produits (souvent un seul) quittent plus fréquemment la banque, tandis que ceux qui détiennent plusieurs produits (3 ou 4) sont plus fidèles.
 
 Matrice de confision
 
